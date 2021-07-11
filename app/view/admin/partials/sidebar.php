@@ -44,6 +44,15 @@
             </li>
         <?php endif; ?>
 
+        <?php if (isPermissionURL('languages')) : ?>
+            <li>
+                <a href="<?= base_url('admin/languages'); ?>" class="waves-effect">
+                    <i class="fa fa-language"></i><span>Languages</span></i>
+                </a>
+            </li>
+        <?php endif; ?>
+
+
     </ul>
 
 </div>

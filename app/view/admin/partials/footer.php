@@ -59,6 +59,9 @@
    <!-- Custom scripts -->
    <script src="<?= public_url('admin/js/app-script.js'); ?>"></script>
 
+   <!--Select Plugins Js-->
+   <script src="<?= public_url('admin\\plugins\select2\js\select2.min.js'); ?>"></script>
+
    <!--Switchery Js-->
    <script src="<?= public_url('admin\plugins\switchery\js\switchery.min.js'); ?>"></script>
    <script>
@@ -82,6 +85,11 @@
    <!-- Index js -->
    <script src="<?= public_url('admin/js/index.js'); ?>"></script>
 
+   <script>
+       $(document).ready(function() {
+           $('.single-select').select2();
+       });
+   </script>
 
 
 

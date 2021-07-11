@@ -10,6 +10,8 @@
     <title>DashRock - Bootstrap 4 Admin Dashboard Template</title>
     <!--favicon-->
     <link rel="icon" href="<?= public_url('admin/images/favicon.ico') ?>" type="image/x-icon">
+    <!--Select Plugins-->
+    <link href="<?= public_url('admin/plugins\select2\css\select2.min.css')?>" rel="stylesheet">
     <!-- notifications css -->
     <link rel="stylesheet" href="<?= public_url('admin/plugins/notifications/css/lobibox.min.css'); ?>">
     <!-- Vector CSS -->

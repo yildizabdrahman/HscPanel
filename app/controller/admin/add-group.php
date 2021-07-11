@@ -34,6 +34,6 @@ if (post('submit')) {
     }
 }
 
-$languages = $db->from('languages')->all();
+$languages = $db->from('languages')->where('is_active', 1)->all();
 
 require view('admin/groups/add');

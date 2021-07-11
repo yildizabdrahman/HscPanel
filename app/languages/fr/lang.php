@@ -1,12 +1,13 @@
 <?php 
 
-//English translation file
-$lang['group_listing_title']                                       = 'Groups';
+//Fichier de traduction turc
+
+$lang['group_listing_title']                                        = 'Gruplar';
 $lang['add_group_error_message']                        = 'Lütfen tüm alanları eksiksiz doldurun';
 $lang['add_group_duplicate_entry_message']       = 'Bu grup Adı mevcut,Lütfen Tekrar Deneyin';
 $lang['add_language_duplicate_entry_message']  = 'Bu dil mevcut,Lütfen Tekrar Deneyin';
-$lang['add_language_error_message']                   = 'Lütfen tüm alanları eksiksiz doldurun';
-$lang['languages_listing_title']                                 = 'Languages';
+$lang['add_language_error_message']                    = 'Lütfen tüm alanları eksiksiz doldurun';
+$lang['languages_listing_title']                                 = 'Diller Listesi';
 $lang['form_input_title']                                            = 'Başlık';
 
 $lang['af'] = 'Afghanistan';

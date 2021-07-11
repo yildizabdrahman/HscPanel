@@ -38,9 +38,8 @@ if (post('submit')) {
 $group = $db->from('groups')->where('id', $id)->first();
 $group['permissions'] = json_decode($group['permissions']);
 $group['title'] = json_decode($group['title']);
-// print_r($group);
-// die();
 
-$languages = $db->from('languages')->all();
+
+$languages = $db->from('languages')->where('is_active', 1)->all();
 
 require view('admin/groups/edit');
